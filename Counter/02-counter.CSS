@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+button {
+    background-color: cyan;
+    color: rgb(20, 20, 168);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+button:hover {
+    background-color: rgb(199, 191, 191);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(230, 221, 221);
+}
